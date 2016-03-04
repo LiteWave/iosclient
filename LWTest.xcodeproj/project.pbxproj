@@ -8,18 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		810A1EAE1BF3465B0027892D /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810A1EAD1BF3465B0027892D /* Images-2.xcassets */; };
+		81602F431C8947D600E56F48 /* LiteWave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81602F421C8947D600E56F48 /* LiteWave.framework */; };
+		81602F451C8947E900E56F48 /* LiteWave.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81602F441C8947E900E56F48 /* LiteWave.bundle */; };
 		8166BFFE1BF1867600DC982D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166BFFD1BF1867600DC982D /* main.m */; };
 		8166C0011BF1867600DC982D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166C0001BF1867600DC982D /* AppDelegate.m */; };
 		8166C0041BF1867600DC982D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166C0031BF1867600DC982D /* MasterViewController.m */; };
 		8166C0071BF1867600DC982D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166C0061BF1867600DC982D /* DetailViewController.m */; };
 		8166C00A1BF1867600DC982D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8166C0081BF1867600DC982D /* Main.storyboard */; };
 		8166C00F1BF1867600DC982D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8166C00D1BF1867600DC982D /* LaunchScreen.storyboard */; };
-		81A540E71BF329F900E8DB72 /* LiteWave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A540E61BF329F900E8DB72 /* LiteWave.framework */; };
-		81C9DAF51BF351C0007B75AD /* LiteWave.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81C9DAF41BF351C0007B75AD /* LiteWave.bundle */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81AF736E1C89415D008B3F5B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		810A1EAD1BF3465B0027892D /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		81602F421C8947D600E56F48 /* LiteWave.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiteWave.framework; path = LWTest/LiteWave.framework; sourceTree = "<group>"; };
+		81602F441C8947E900E56F48 /* LiteWave.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LiteWave.bundle; path = LWTest/LiteWave.bundle; sourceTree = "<group>"; };
 		8166BFF91BF1867600DC982D /* LWTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8166BFFD1BF1867600DC982D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8166BFFF1BF1867600DC982D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,8 +46,6 @@
 		8166C0091BF1867600DC982D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8166C00E1BF1867600DC982D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8166C0101BF1867600DC982D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81A540E61BF329F900E8DB72 /* LiteWave.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiteWave.framework; path = LWTest/LiteWave.framework; sourceTree = "<group>"; };
-		81C9DAF41BF351C0007B75AD /* LiteWave.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LiteWave.bundle; path = LWTest/LiteWave.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81A540E71BF329F900E8DB72 /* LiteWave.framework in Frameworks */,
+				81602F431C8947D600E56F48 /* LiteWave.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,8 +63,8 @@
 		8166BFF01BF1867600DC982D = {
 			isa = PBXGroup;
 			children = (
-				81C9DAF41BF351C0007B75AD /* LiteWave.bundle */,
-				81A540E61BF329F900E8DB72 /* LiteWave.framework */,
+				81602F441C8947E900E56F48 /* LiteWave.bundle */,
+				81602F421C8947D600E56F48 /* LiteWave.framework */,
 				8166BFFB1BF1867600DC982D /* LWTest */,
 				8166BFFA1BF1867600DC982D /* Products */,
 			);
@@ -101,6 +114,7 @@
 				8166BFF51BF1867600DC982D /* Sources */,
 				8166BFF61BF1867600DC982D /* Frameworks */,
 				8166BFF71BF1867600DC982D /* Resources */,
+				81AF736E1C89415D008B3F5B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,7 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C9DAF51BF351C0007B75AD /* LiteWave.bundle in Resources */,
+				81602F451C8947E900E56F48 /* LiteWave.bundle in Resources */,
 				810A1EAE1BF3465B0027892D /* Images-2.xcassets in Resources */,
 				8166C00F1BF1867600DC982D /* LaunchScreen.storyboard in Resources */,
 				8166C00A1BF1867600DC982D /* Main.storyboard in Resources */,
