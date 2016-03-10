@@ -8,8 +8,8 @@
 
 #import "MasterViewController.h"
 #import "DetailViewController.h"
-#import "Litewave/LWMainController.h"
-#import "Litewave/LWUtility.h"
+#import "Litewave/LWFMainController.h"
+#import "Litewave/LWFUtility.h"
 
 
 
@@ -37,10 +37,10 @@
     
     NSBundle* bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle]URLForResource:@"LiteWave"
                                                                       withExtension:@"bundle"]];
-    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"Main"
+    UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"LWFMain"
                                                          bundle:bundle];
     
-    LWMainController *controller = [storyboard instantiateViewControllerWithIdentifier:@"register"];
+    LWFMainController *controller = [storyboard instantiateViewControllerWithIdentifier:@"register"];
     [self.navigationController pushViewController:controller animated:YES];
 
 }

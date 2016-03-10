@@ -7,8 +7,6 @@
 //
 
 #import "DetailViewController.h"
-#import "Litewave/LWMainController.h"
-#import "Litewave/LWUtility.h"
 
 
 @interface DetailViewController ()
