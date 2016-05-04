@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		810A1EAE1BF3465B0027892D /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810A1EAD1BF3465B0027892D /* Images-2.xcassets */; };
-		81602F6C1C8CCB1C00E56F48 /* LiteWave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81602F6B1C8CCB1C00E56F48 /* LiteWave.framework */; };
-		81602F6E1C8CCB2B00E56F48 /* LiteWave.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81602F6D1C8CCB2B00E56F48 /* LiteWave.bundle */; };
+		8111B0F71CD9CDC000EEFB89 /* LiteWave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8111B0F61CD9CDC000EEFB89 /* LiteWave.framework */; };
+		8111B0FC1CD9CF0A00EEFB89 /* LiteWave.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8111B0FB1CD9CF0A00EEFB89 /* LiteWave.bundle */; };
 		8166BFFE1BF1867600DC982D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166BFFD1BF1867600DC982D /* main.m */; };
 		8166C0011BF1867600DC982D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166C0001BF1867600DC982D /* AppDelegate.m */; };
 		8166C0041BF1867600DC982D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166C0031BF1867600DC982D /* MasterViewController.m */; };
@@ -33,8 +33,8 @@
 
 /* Begin PBXFileReference section */
 		810A1EAD1BF3465B0027892D /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
-		81602F6B1C8CCB1C00E56F48 /* LiteWave.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiteWave.framework; path = LWTest/LiteWave.framework; sourceTree = "<group>"; };
-		81602F6D1C8CCB2B00E56F48 /* LiteWave.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LiteWave.bundle; path = LWTest/LiteWave.bundle; sourceTree = "<group>"; };
+		8111B0F61CD9CDC000EEFB89 /* LiteWave.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiteWave.framework; path = LWTest/LiteWave.framework; sourceTree = "<group>"; };
+		8111B0FB1CD9CF0A00EEFB89 /* LiteWave.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LiteWave.bundle; path = LWTest/LiteWave.bundle; sourceTree = "<group>"; };
 		8166BFF91BF1867600DC982D /* LWTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8166BFFD1BF1867600DC982D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8166BFFF1BF1867600DC982D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81602F6C1C8CCB1C00E56F48 /* LiteWave.framework in Frameworks */,
+				8111B0F71CD9CDC000EEFB89 /* LiteWave.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +63,8 @@
 		8166BFF01BF1867600DC982D = {
 			isa = PBXGroup;
 			children = (
-				81602F6D1C8CCB2B00E56F48 /* LiteWave.bundle */,
-				81602F6B1C8CCB1C00E56F48 /* LiteWave.framework */,
+				8111B0FB1CD9CF0A00EEFB89 /* LiteWave.bundle */,
+				8111B0F61CD9CDC000EEFB89 /* LiteWave.framework */,
 				8166BFFB1BF1867600DC982D /* LWTest */,
 				8166BFFA1BF1867600DC982D /* Products */,
 			);
@@ -163,7 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81602F6E1C8CCB2B00E56F48 /* LiteWave.bundle in Resources */,
+				8111B0FC1CD9CF0A00EEFB89 /* LiteWave.bundle in Resources */,
 				810A1EAE1BF3465B0027892D /* Images-2.xcassets in Resources */,
 				8166C00F1BF1867600DC982D /* LaunchScreen.storyboard in Resources */,
 				8166C00A1BF1867600DC982D /* Main.storyboard in Resources */,
@@ -293,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LWTest",
@@ -310,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LWTest",
