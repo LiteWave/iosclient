@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		810A1EAE1BF3465B0027892D /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810A1EAD1BF3465B0027892D /* Images-2.xcassets */; };
+		812904C91CDEA84000022DFB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812904C61CDEA84000022DFB /* FirstViewController.m */; };
+		812904CA1CDEA84000022DFB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812904C81CDEA84000022DFB /* SecondViewController.m */; };
+		812904CC1CDEAACD00022DFB /* LiteWave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 812904CB1CDEAACD00022DFB /* LiteWave.framework */; };
+		812904CE1CDEAADE00022DFB /* LiteWave.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 812904CD1CDEAADE00022DFB /* LiteWave.bundle */; };
+		812904D01CDEAB4500022DFB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 812904CF1CDEAB4500022DFB /* Default-568h@2x.png */; };
+		8166BFFE1BF1867600DC982D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166BFFD1BF1867600DC982D /* main.m */; };
+		8166C0011BF1867600DC982D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8166C0001BF1867600DC982D /* AppDelegate.m */; };
+		8166C00A1BF1867600DC982D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8166C0081BF1867600DC982D /* Main.storyboard */; };
+		8166C00F1BF1867600DC982D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8166C00D1BF1867600DC982D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		81AF736E1C89415D008B3F5B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		810A1EAD1BF3465B0027892D /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		812904C51CDEA84000022DFB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		812904C61CDEA84000022DFB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		812904C71CDEA84000022DFB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		812904C81CDEA84000022DFB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		812904CB1CDEAACD00022DFB /* LiteWave.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LiteWave.framework; path = LiteWaveClient/LiteWave.framework; sourceTree = "<group>"; };
+		812904CD1CDEAADE00022DFB /* LiteWave.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = LiteWave.bundle; path = LiteWaveClient/LiteWave.bundle; sourceTree = "<group>"; };
+		812904CF1CDEAB4500022DFB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8166BFF91BF1867600DC982D /* LiteWaveClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiteWaveClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8166BFFD1BF1867600DC982D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8166BFFF1BF1867600DC982D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8166C0001BF1867600DC982D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8166C0091BF1867600DC982D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8166C00E1BF1867600DC982D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8166C0101BF1867600DC982D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8166BFF61BF1867600DC982D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812904CC1CDEAACD00022DFB /* LiteWave.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8166BFF01BF1867600DC982D = {
+			isa = PBXGroup;
+			children = (
+				812904CF1CDEAB4500022DFB /* Default-568h@2x.png */,
+				812904CD1CDEAADE00022DFB /* LiteWave.bundle */,
+				812904CB1CDEAACD00022DFB /* LiteWave.framework */,
+				8166BFFB1BF1867600DC982D /* LiteWaveClient */,
+				8166BFFA1BF1867600DC982D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8166BFFA1BF1867600DC982D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8166BFF91BF1867600DC982D /* LiteWaveClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8166BFFB1BF1867600DC982D /* LiteWaveClient */ = {
+			isa = PBXGroup;
+			children = (
+				812904C51CDEA84000022DFB /* FirstViewController.h */,
+				812904C61CDEA84000022DFB /* FirstViewController.m */,
+				812904C71CDEA84000022DFB /* SecondViewController.h */,
+				812904C81CDEA84000022DFB /* SecondViewController.m */,
+				8166BFFF1BF1867600DC982D /* AppDelegate.h */,
+				8166C0001BF1867600DC982D /* AppDelegate.m */,
+				8166C0081BF1867600DC982D /* Main.storyboard */,
+				8166C00D1BF1867600DC982D /* LaunchScreen.storyboard */,
+				8166C0101BF1867600DC982D /* Info.plist */,
+				810A1EAD1BF3465B0027892D /* Images-2.xcassets */,
+				8166BFFC1BF1867600DC982D /* Supporting Files */,
+			);
+			path = LiteWaveClient;
+			sourceTree = "<group>";
+		};
+		8166BFFC1BF1867600DC982D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8166BFFD1BF1867600DC982D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8166BFF81BF1867600DC982D /* LiteWaveClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8166C0131BF1867600DC982D /* Build configuration list for PBXNativeTarget "LiteWaveClient" */;
+			buildPhases = (
+				8166BFF51BF1867600DC982D /* Sources */,
+				8166BFF61BF1867600DC982D /* Frameworks */,
+				8166BFF71BF1867600DC982D /* Resources */,
+				81AF736E1C89415D008B3F5B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiteWaveClient;
+			productName = SimpleTest;
+			productReference = 8166BFF91BF1867600DC982D /* LiteWaveClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8166BFF11BF1867600DC982D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "LiteWave LLC";
+				TargetAttributes = {
+					8166BFF81BF1867600DC982D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = F863Y4QL35;
+					};
+				};
+			};
+			buildConfigurationList = 8166BFF41BF1867600DC982D /* Build configuration list for PBXProject "LiteWaveClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8166BFF01BF1867600DC982D;
+			productRefGroup = 8166BFFA1BF1867600DC982D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8166BFF81BF1867600DC982D /* LiteWaveClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8166BFF71BF1867600DC982D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812904CE1CDEAADE00022DFB /* LiteWave.bundle in Resources */,
+				810A1EAE1BF3465B0027892D /* Images-2.xcassets in Resources */,
+				8166C00F1BF1867600DC982D /* LaunchScreen.storyboard in Resources */,
+				812904D01CDEAB4500022DFB /* Default-568h@2x.png in Resources */,
+				8166C00A1BF1867600DC982D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8166BFF51BF1867600DC982D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812904CA1CDEA84000022DFB /* SecondViewController.m in Sources */,
+				8166C0011BF1867600DC982D /* AppDelegate.m in Sources */,
+				812904C91CDEA84000022DFB /* FirstViewController.m in Sources */,
+				8166BFFE1BF1867600DC982D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8166C0081BF1867600DC982D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8166C0091BF1867600DC982D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8166C00D1BF1867600DC982D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8166C00E1BF1867600DC982D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8166C0111BF1867600DC982D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8166C0121BF1867600DC982D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8166C0141BF1867600DC982D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiteWaveClient",
+					"$(PROJECT_DIR)/LiteWaveClient",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LiteWaveClient/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litewaveinc.litewavetest;
+				PRODUCT_NAME = LiteWaveClient;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8166C0151BF1867600DC982D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiteWaveClient",
+					"$(PROJECT_DIR)/LiteWaveClient",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/LiteWaveClient/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litewaveinc.litewavetest;
+				PRODUCT_NAME = LiteWaveClient;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8166BFF41BF1867600DC982D /* Build configuration list for PBXProject "LiteWaveClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8166C0111BF1867600DC982D /* Debug */,
+				8166C0121BF1867600DC982D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8166C0131BF1867600DC982D /* Build configuration list for PBXNativeTarget "LiteWaveClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8166C0141BF1867600DC982D /* Debug */,
+				8166C0151BF1867600DC982D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8166BFF11BF1867600DC982D /* Project object */;
+}
